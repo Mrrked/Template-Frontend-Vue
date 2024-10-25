@@ -34,3 +34,4 @@
 
  1. Axios Base URL - set the proper IP/PORT of the backend for this frontend application where it will always make the requests
  2. Modify Login and Main Component Tree (if necessary)
+ 3. Set desired port of the program in vite config
