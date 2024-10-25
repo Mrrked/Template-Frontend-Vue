@@ -12,6 +12,6 @@
 
 <template>
   <div class="flex flex-col w-full gap-3 pt-4">
-    sdsd
+    Main Container
   </div>
 </template>
