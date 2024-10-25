@@ -57,7 +57,7 @@
       <template #header>
         <div class="flex justify-between gap-3">
           <div class="text-xl font-bold">
-            Unit Query Results
+            Query Results
           </div>
           <div class="flex gap-3">
             <IconField>
