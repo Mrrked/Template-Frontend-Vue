@@ -3,7 +3,7 @@ import router from './router';
 
 const instance = axios.create({
   // Local Server
-  // baseURL: 'http://127.0.0.1:8000/api/v1/',
+  // baseURL: 'http://127.0.0.1:9000/api/v1/',
   // IBM Server
   baseURL: 'http://192.168.8.220:9000/api/v1/',       // Modify PORT
   withCredentials: true,
@@ -14,6 +14,7 @@ const refreshAccessToken = async () => {
   const refreshToken = localStorage.getItem('refresh');
 
   try {
+    // const response = await axios.post('http://127.0.0.1:9000/api/v1/token/refresh/', {
     const response = await axios.post('http://192.168.8.220:9000/api/v1/token/refresh/', {
       refresh: refreshToken,
     });
